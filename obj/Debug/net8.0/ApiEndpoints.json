@@ -1,0 +1,385 @@
+[
+  {
+    "ContainingType": "CausaViva.Controllers.DistritoController",
+    "Method": "GetDistritosAll",
+    "RelativePath": "api/Distrito",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.InscripcionVoluntariadoController",
+    "Method": "ActualizarInscripcionVoluntariado",
+    "RelativePath": "api/InscripcionVoluntariado/ActualizacionEstado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscripcion",
+        "Type": "CausaViva.DTOs.InscripcionVoluntariado.InscripcionVolActualizarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.InscripcionVoluntariadoController",
+    "Method": "InsertarInscripcionVoluntariado",
+    "RelativePath": "api/InscripcionVoluntariado/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscripcion",
+        "Type": "CausaViva.DTOs.InscripcionVoluntariado.InscripcionVoluntariadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.InscripcionVoluntariadoController",
+    "Method": "GetInsVolPanelOrganizacion",
+    "RelativePath": "api/InscripcionVoluntariado/PanelOrganizacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdOrganizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.InscripcionVoluntariadoController",
+    "Method": "GetInsVolPanelUsuario",
+    "RelativePath": "api/InscripcionVoluntariado/PanelUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.OrganizacionController",
+    "Method": "ActualizarOrganizacion",
+    "RelativePath": "api/Organizacion/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizacion",
+        "Type": "CausaViva.DTOs.Organizacion.OrganizacionActualizarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.OrganizacionController",
+    "Method": "ActualizarContraseniaUsuario",
+    "RelativePath": "api/Organizacion/ActualizarContrasenia",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizacion",
+        "Type": "CausaViva.DTOs.Organizacion.CambioContraseniaOrg",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.OrganizacionController",
+    "Method": "ActualizarEstadoUsuario",
+    "RelativePath": "api/Organizacion/ActualizarEstado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizacion",
+        "Type": "CausaViva.DTOs.Organizacion.OrgVolReqActualizarEstadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.OrganizacionController",
+    "Method": "GetOrganizacionId",
+    "RelativePath": "api/Organizacion/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdOrganizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.OrganizacionController",
+    "Method": "InsertarOrganizacion",
+    "RelativePath": "api/Organizacion/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizacion",
+        "Type": "CausaViva.DTOs.Organizacion.OrganizacionInsertarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.SeguridadLoginController",
+    "Method": "GetOrganizacionLogin",
+    "RelativePath": "api/SeguridadLogin/OrganizacionLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.SeguridadLoginController",
+    "Method": "GetUsuarioLogin",
+    "RelativePath": "api/SeguridadLogin/UsuarioLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.UsuarioController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/Usuario/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CausaViva.DTOs.Usuario.UsuarioActualizarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.UsuarioController",
+    "Method": "ActualizarContraseniaUsuario",
+    "RelativePath": "api/Usuario/ActualizarContrasenia",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CausaViva.DTOs.Usuario.UsuarioContraseniaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.UsuarioController",
+    "Method": "ActualizarEstadoUsuario",
+    "RelativePath": "api/Usuario/ActualizarEstado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CausaViva.DTOs.Usuario.UsuarioEstadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.UsuarioController",
+    "Method": "GetUsuarioId",
+    "RelativePath": "api/Usuario/ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.UsuarioController",
+    "Method": "InsertarUsuario",
+    "RelativePath": "api/Usuario/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CausaViva.DTOs.Usuario.UsuarioInsertarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.VoluntariadoRequisitoController",
+    "Method": "ActualizarUsuarioOrg",
+    "RelativePath": "api/VoluntariadoRequisito/ActualizarDatosPanelOrg",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voluntariado",
+        "Type": "CausaViva.DTOs.Voluntariado_Requisito.Voluntariado.VoluntariadoActualizarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.VoluntariadoRequisitoController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/VoluntariadoRequisito/ActualizarEstadoPanelOrg",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voluntariado",
+        "Type": "CausaViva.DTOs.Voluntariado_Requisito.Voluntariado.VoluntariadoReqDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.VoluntariadoRequisitoController",
+    "Method": "InsertarVoluntariadoRequisitoPanelOrg",
+    "RelativePath": "api/VoluntariadoRequisito/RegistrarPanelOrg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voluntariado",
+        "Type": "CausaViva.DTOs.Voluntariado_Requisito.Voluntariado.VoluntariadoInsertarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.VoluntariadoRequisitoController",
+    "Method": "GetVoluntariadoDetalleId",
+    "RelativePath": "api/VoluntariadoRequisito/VoluntariadoEditarDetalleOrganizacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdVoluntariado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.VoluntariadoRequisitoController",
+    "Method": "GetVoluntariadoPanelOrg",
+    "RelativePath": "api/VoluntariadoRequisito/VoluntariadoPanelOrganizacionID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdOrganizacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.VoluntariadoRequisitoController",
+    "Method": "GetVoluntariadoIdPanelUsuario",
+    "RelativePath": "api/VoluntariadoRequisito/VoluntariosPanelUsuarioID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdVoluntariado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CausaViva.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CausaViva.WeatherForecast, CausaViva, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
