@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBy5IyegrBA=",
+  "dgSpecHash": "ZwB9TRVCBso=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sant1\\OneDrive\\Escritorio\\Causa_Back\\CausaViva.csproj",
+  "projectFilePath": "C:\\Users\\sant1\\OneDrive\\Escritorio\\causaback\\CausaViva.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sant1\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sant1\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
